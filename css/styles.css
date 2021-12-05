@@ -265,11 +265,12 @@
   column-gap: 4.2rem;
 
   margin-top: 4.8rem;
-  margin-bottom: 4.8rem;
+  margin-bottom: 10rem;
 }
 
 .project-image{
-  width: 40%;
+  width: 50%;
+  height: 50%;
 }
 
 .tech-stack-list{
@@ -277,7 +278,7 @@
   list-style: none;
   column-gap: 4.8rem;
 
-  margin-bottom: 4.8rem;
+  margin-bottom: 2.4rem;
 }
 
 .left .tech-stack-list{
