@@ -107,6 +107,11 @@ a{
   width: 5rem;
 }
 
+ion-icon {
+  color: #CCD6F6;
+  font-size: 2rem;
+}
+
 /**************************************/
 /* HEADING REUSABLE COMPONENTS */
 /**************************************/
