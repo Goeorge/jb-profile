@@ -165,7 +165,7 @@
 
 	.main-heading {
 		font-size: 2.6rem;
-		margin-left: 3rem;
+		margin-left: 5rem;
 	}
 
 	.about-me {
@@ -193,7 +193,8 @@
 		margin-bottom: 14rem;
 	}
 	.content {
-		margin: 0 8rem;
+		margin-left: 8rem;
+		margin-right: 2rem;
 	}
 	.salutation {
 		font-size: 1.4rem;
@@ -204,7 +205,7 @@
 	}
 
 	.profession {
-		font-size: 3.4rem;
+		font-size: 3.2rem;
 	}
 
 	.hero-text {
@@ -224,7 +225,11 @@
 	}
 
 	.sidebar-right {
-		right: 1rem;
+		display: none;
+	}
+
+	.about-me {
+		margin-right: 2rem;
 	}
 
 	/**************************************/
@@ -240,7 +245,7 @@
 
 	.work-history {
 		grid-template-columns: 1fr;
-		margin: 3rem;
+		margin-left: 5rem;
 	}
 	.company-list {
 		flex-direction: row;
@@ -283,7 +288,7 @@
 	}
 
 	/**************************************/
-	/* MAIN PROJECTS */
+	/* CONTACTS */
 	/**************************************/
 	.secondary-heading {
 		font-size: 3.4rem;
@@ -295,9 +300,47 @@
 }
 
 @media (max-width: 28em) {
+	.sidebar .sidebar-right {
+		display: none;
+	}
+
+	.main-project {
+		flex-direction: column;
+		margin-left: 6rem;
+		margin-right: 1rem;
+	}
+
+	.grid-3-cols {
+		margin-right: 1rem;
+		margin-left: 5rem;
+	}
 }
 
 @media (max-width: 24em) {
+	/**************************************/
+	/* HERO SECTION */
+	/**************************************/
+
+	.content {
+		margin: 0 8rem;
+	}
+	.salutation {
+		font-size: 1.6rem;
+	}
+
+	.name {
+		font-size: 4.6rem;
+	}
+
+	.profession {
+		font-size: 2.8rem;
+	}
+
+	.hero-text {
+		font-size: 2.2rem;
+		margin-top: 10%;
+		margin-right: 10%;
+	}
 }
 
 @media (max-width: 20em) {
