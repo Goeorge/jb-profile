@@ -18,191 +18,187 @@ Line Heights: 88px
 
 */
 
-
 /**************************************/
 /* GENERAL REUSABLE COMPONENTS */
 /**************************************/
-*{
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
 }
 
-html{
-  /* font-size: 10px; */
-  /* % of users browsers font size setting. Defaultis 16px */
-  font-size: 62.5%;
-  /* overflow-x: hidden; */
+html {
+	/* font-size: 10px; */
+	/* % of users browsers font size setting. Defaultis 16px */
+	font-size: 62.5%;
+	overflow-x: hidden;
 
-  /* scroll-behavior: smooth; */
+	/* scroll-behavior: smooth; */
 }
 
-body{
-  font-family: 'Calibre','SF Mono', 'SF Pro Text', 'SF Pro Display', San Francisco, -apple-system, system-ui, sans-serif;
-  font-size: 2.2rem;
-  font-weight: 400;
-  line-height: 1.5;
-  color: #8892b0;
-  background-color: #0A192F;
-  /* overflow-x: hidden; */
-
+body {
+	font-family: "Calibre", "SF Mono", "SF Pro Text", "SF Pro Display",
+		San Francisco, -apple-system, system-ui, sans-serif;
+	font-size: 2.2rem;
+	font-weight: 400;
+	line-height: 1.5;
+	color: #8892b0;
+	background-color: #0a192f;
+	overflow-x: hidden;
+	/* overflow-x: hidden; */
 }
 
-span, .salutation, .cta-primary,.tertiary-heading{
-  font-family: 'SF Mono';
+span,
+.salutation,
+.cta-primary,
+.tertiary-heading {
+	font-family: "SF Mono";
 }
 
 /**************************************/
 /* CONTAINER/GRIDS REUSABLE COMPONENTS */
 /**************************************/
 
-.container{
-  /* 1140px */
-  max-width: 100%;
-  margin: 0 auto;
-  padding: 0 4rem;
+.container {
+	/* 1140px */
+	max-width: 100%;
+	margin: 0 auto;
+	padding: 0 2rem;
 
-  /* temp */
-
+	/* temp
+	position: relative; */
 }
 
-.section{
-  max-width: 120rem;
+.section {
+	max-width: 120rem;
 }
 
-.content{
-  margin: auto;
-  padding-top: 4.8rem;
+.content {
+	margin: auto;
+	padding-top: 6rem;
 }
 
 /**************************************/
 /* LINK / BUTTON REUSABLE COMPONENTS */
 /**************************************/
-.btn{
-  background-color: transparent;
-  border: 1px solid #64ffda;
-  border-radius: 4%;
-  
+.btn {
+	background-color: transparent;
+	border: 1px solid #64ffda;
+	border-radius: 4%;
 }
 
-.cta{
-  padding: 1rem 1.45rem;
-  margin-top: 6.2rem;
-  font-family: 'SF Mono';
-  
+.cta {
+	padding: 1rem 1.45rem;
+	margin-top: 6.2rem;
+	font-family: "SF Mono";
 }
 
-a{
-  display: inline-block;
-  text-decoration: none;
-  color: #64ffda;
-  cursor: pointer;
+a {
+	display: inline-block;
+	text-decoration: none;
+	color: #64ffda;
+	cursor: pointer;
 }
 
-p span{
-  color: #64ffda;
-  font-size: 1.8rem;
+p span {
+	color: #64ffda;
+	font-size: 1.8rem;
 }
-
 
 /**************************************/
 /* SIDEBAR REUSABLE COMPONENTS */
 /**************************************/
-.sidebar{
-  display: block;
-  position: fixed;
-  width: 5rem;
+.sidebar {
+	display: block;
+	position: fixed;
+	width: 5rem;
 }
 
 ion-icon {
-  color: #CCD6F6;
-  font-size: 2rem;
+	color: #ccd6f6;
+	font-size: 2rem;
 }
 
-
-.email{
-  color: #CCD6F6;
+.email {
+	color: #ccd6f6;
 }
 
 /**************************************/
 /* HEADING REUSABLE COMPONENTS */
 /**************************************/
 
-.main-heading{
-  color: #CCD6F6;
-  font-size: 3rem;
-  font-weight: 600;
+.main-heading {
+	color: #ccd6f6;
+	font-size: 3rem;
+	font-weight: 600;
 }
 
 .secondary-heading-2 span,
-.main-heading span{
-  color: #64ffda;
+.main-heading span {
+	color: #64ffda;
 }
 
-.secondary-heading{
-  font-size: 6.0rem;
-  font-weight: 600;
-  color: #ccd6f6;
-  
+.secondary-heading {
+	font-size: 6rem;
+	font-weight: 600;
+	color: #ccd6f6;
 }
 
-.secondary-heading-2{
-  font-size: 2.2rem;
-  font-weight: 600;
-  color: #ccd6f6;
-  
+.secondary-heading-2 {
+	font-size: 2.2rem;
+	font-weight: 600;
+	color: #ccd6f6;
 }
 
-.tertiary-heading{
-  color: #64ffda;
-  font-size: 1.5rem;
+.tertiary-heading {
+	color: #64ffda;
+	font-size: 1.5rem;
 }
 
-.tertiary-heading-2{
-  color: #64ffda;
-  font-size: 1.8rem;
+.tertiary-heading-2 {
+	color: #64ffda;
+	font-size: 1.8rem;
 }
 
-.header{
-  padding: auto;
+.header {
+	padding: auto;
 }
 
-.header-center{
-  text-align: center;
-  margin-bottom: 4.8rem;
+.header-center {
+	text-align: center;
+	margin-bottom: 4.8rem;
 }
 
-.center{
-  text-align: center;
-  /* align-self: center; */
+.center {
+	text-align: center;
+	/* align-self: center; */
 }
 
-.header-right{
-  text-align: right;
+.header-right {
+	text-align: right;
 }
 
-.header-left{
-  text-align: left;
+.header-left {
+	text-align: left;
 }
 /**************************************/
 /* PARAGRAPH REUSABLE COMPONENTS */
 /**************************************/
-.hero-text{
-  margin: 1.2rem 0;
-  margin-right: 40%;
-  margin-bottom: 5rem;
+.hero-text {
+	margin: 1.2rem 0;
+	margin-right: 40%;
+	margin-bottom: 5rem;
 }
 
-.body-text{
-  margin: 1.2rem 0;
-  margin-bottom: 2rem;
-  text-align: left;
-  margin-right: 10%;
+.body-text {
+	margin: 1.2rem 0;
+	margin-bottom: 2rem;
+	text-align: left;
+	margin-right: 10%;
 }
 
 .grid-3-cols {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  gap: 2.4rem;
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+	gap: 2.4rem;
 }
-

@@ -1,0 +1,304 @@
+@media (max-width: 84em) {
+	/**************************************/
+	/* GENERAL SECTION */
+	/**************************************/
+	html {
+		font-size: 56.5%;
+	}
+	/**************************************/
+	/* HERO SECTION */
+	/**************************************/
+
+	.content {
+		margin: 0 4rem;
+	}
+	.salutation {
+		font-size: 1.6rem;
+	}
+
+	.name {
+		font-size: 6.8rem;
+	}
+
+	.profession {
+		font-size: 6.8rem;
+	}
+
+	/**************************************/
+	/* MAIN PROJECTS SECTION */
+	/**************************************/
+
+	.main-project {
+		margin: 0 6rem;
+	}
+
+	.grid-3-cols {
+		margin: 0 6rem;
+	}
+
+	/**************************************/
+	/* PROJECTS SECTION */
+	/**************************************/
+
+	.main-heading {
+		font-size: 3rem;
+		margin-left: 6rem;
+	}
+}
+
+@media (max-width: 64rem) {
+	html {
+		font-size: 54.5%;
+	}
+
+	/**************************************/
+	/* MOBILE HEADER */
+	/**************************************/
+	.mobile-menu {
+		display: block;
+		z-index: 999;
+		margin: 6rem;
+	}
+	.menu-icon[alt="menu-icon"] {
+		display: block;
+	}
+
+	.header {
+		width: 100%;
+		position: relative;
+	}
+	.container {
+		padding: 0;
+	}
+
+	.main-nav {
+		position: absolute;
+		top: 0;
+		left: 0;
+		width: 100%;
+		height: 100vh;
+		transform: translateX(100%);
+
+		background-color: aliceblue;
+
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		transition: all 0.5s ease-in;
+
+		/* Hide Navigation */
+		opacity: 0;
+
+		/* Make it inaccessible to mouse */
+		pointer-events: none;
+
+		/* Hide it from screen readers */
+		visibility: hidden;
+	}
+
+	/* nav Open */
+
+	.nav-open .main-nav {
+		opacity: 1;
+		pointer-events: auto;
+		visibility: visible;
+		transform: translateX(0);
+	}
+	.nav-open .close-menu[alt="close-menu"] {
+		display: block;
+	}
+
+	.nav-open .menu-icon[alt="menu-icon"] {
+		display: none;
+	}
+
+	.main-nav-list {
+		flex-direction: column;
+		/* align-items: center; */
+		justify-content: center;
+	}
+
+	.main-nav-link:link,
+	.main-nav-link:visited {
+		font-size: 3rem;
+	}
+
+	/**************************************/
+	/* HERO SECTION */
+	/**************************************/
+
+	.content {
+		margin: 0 8rem;
+	}
+	.salutation {
+		font-size: 1.4rem;
+	}
+
+	.name {
+		font-size: 6.2rem;
+	}
+
+	.profession {
+		font-size: 5.6rem;
+	}
+
+	/**************************************/
+	/* MAIN PROJECTS SECTION */
+	/**************************************/
+
+	.main-project {
+		margin: 0 8rem;
+	}
+
+	.grid-3-cols {
+		margin: 0 8rem;
+		grid-template-columns: 1fr 1fr;
+	}
+	.other-project {
+		grid-column: 1 / -1;
+		justify-items: center;
+	}
+
+	/**************************************/
+	/* ABOUT SECTION */
+	/**************************************/
+
+	.main-heading {
+		font-size: 2.6rem;
+		margin-left: 3rem;
+	}
+
+	.about-me {
+		margin: 0 6rem;
+		grid-template-columns: 1fr;
+	}
+
+	.about-image img {
+		width: 40%;
+	}
+}
+
+@media (max-width: 48em) {
+	/**************************************/
+	/* GENERAL SECTION */
+	/**************************************/
+	html {
+		font-size: 46%;
+	}
+
+	/**************************************/
+	/* HERO SECTION */
+	/**************************************/
+	.hero {
+		margin-bottom: 14rem;
+	}
+	.content {
+		margin: 0 8rem;
+	}
+	.salutation {
+		font-size: 1.4rem;
+	}
+
+	.name {
+		font-size: 4.2rem;
+	}
+
+	.profession {
+		font-size: 3.4rem;
+	}
+
+	.hero-text {
+		font-size: 2.2rem;
+		margin-top: 10%;
+		margin-right: 10%;
+	}
+
+	/**************************************/
+	/* ABOUT SECTION */
+	/**************************************/
+	.about-image img {
+		width: 80%;
+	}
+	.about-text {
+		font-size: 2.2rem;
+	}
+
+	.sidebar-right {
+		right: 1rem;
+	}
+
+	/**************************************/
+	/* WORK HISTORY */
+	/**************************************/
+
+	.work {
+		margin: 0 auto;
+		padding-left: 5rem;
+		padding-right: 5rem;
+		margin-bottom: 14rem;
+	}
+
+	.work-history {
+		grid-template-columns: 1fr;
+		margin: 3rem;
+	}
+	.company-list {
+		flex-direction: row;
+		justify-content: center;
+		column-gap: 0.6rem;
+		background-color: #0a192f;
+		/* border: 0.001px solid #64ffda; */
+	}
+
+	.company:hover,
+	.company:active {
+		background-color: #112240;
+	}
+
+	.company {
+		padding: 1rem;
+	}
+
+	.secondary-heading-2 {
+		margin-top: 2rem;
+	}
+
+	.job-achievements {
+		font-size: 2.2rem;
+		margin: 0 2rem;
+	}
+
+	/**************************************/
+	/* MAIN PROJECTS */
+	/**************************************/
+	.main-project {
+		flex-direction: column;
+		margin-top: 6rem;
+		margin-bottom: 8rem;
+	}
+
+	.project-image {
+		width: 100%;
+		height: 160px;
+	}
+
+	/**************************************/
+	/* MAIN PROJECTS */
+	/**************************************/
+	.secondary-heading {
+		font-size: 3.4rem;
+	}
+
+	.contact .text {
+		margin: auto 8rem;
+	}
+}
+
+@media (max-width: 28em) {
+}
+
+@media (max-width: 24em) {
+}
+
+@media (max-width: 20em) {
+}
